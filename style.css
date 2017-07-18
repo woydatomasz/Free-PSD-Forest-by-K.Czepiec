@@ -1,0 +1,47 @@
+body{
+    width: 1600px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.page_header {
+	background: url(images/FOREST_01.jpg) no-repeat;
+    width: 100%;
+    height: 718px;
+    background-size: cover;
+}
+.logo{
+    display: block;
+    color: #fff;
+   text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 215px;
+    
+}
+.page_navigation {
+    list-style: none;
+	text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+      top: 55px;
+    right: 215px;
+}
+
+.page_navigation li{
+	display: inline-block;
+    margin-left: 38px;
+}
+.page_article {
+	color: #fff;
+}
+.article_header {
+	font-size: 48px;
+    padding-left: 215px;
+}
